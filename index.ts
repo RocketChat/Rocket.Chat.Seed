@@ -126,10 +126,10 @@ async function main() {
 			description: 'Number of users to create',
 			type: 'number',
 		})
-		.option('rooms', {
-			description: 'Number of rooms to create',
-			type: 'number',
-		})
+		// .option('rooms', {
+		// 	description: 'Number of rooms to create',
+		// 	type: 'number',
+		// })
 		.argv;
 
 	const restClient = new RestClient(argv.host);
