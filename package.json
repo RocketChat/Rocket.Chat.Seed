@@ -1,0 +1,20 @@
+{
+  "name": "Rocket.Chat.Seed",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.3.1",
+    "axios": "^1.6.2",
+    "axios-debug-log": "^1.0.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17.0.31",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
